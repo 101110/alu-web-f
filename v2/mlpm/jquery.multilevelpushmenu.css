@@ -11,7 +11,7 @@
 	position: absolute;
 	overflow: hidden;
 	top: 0;
-	background: #ce3130;
+	background: rgba(172, 180, 185, 0.83);
 	width: auto;
 	min-height: 100%;
 	font-family: 'Open Sans Condensed', sans-serif;
@@ -22,9 +22,9 @@
 .mlpm_w .ltr {
 	margin-left: -100%;
 	left: 0;
-	-moz-box-shadow: 5px 0 5px -5px #870000;
-	-webkit-box-shadow: 5px 0 5px -5px #870000;
-	box-shadow: 5px 0 5px -5px #870000;
+	-moz-box-shadow: 5px 0 5px -5px rgba(172, 180, 185, 0.95);
+	-webkit-box-shadow: 5px 0 5px -5px rgba(172, 180, 185, 0.95);
+	box-shadow: 5px 0 5px -5px rgba(172, 180, 185, 0.95);
 	filter: progid:DXImageTransform.Microsoft.Shadow(color=#870000,direction=90,strength=2);
 }
 
@@ -38,14 +38,14 @@
 }
 
 .mlpm_w .mlpm_inactive {
-	background: #ba0011;
+	background: rgba(172, 180, 185, 0.83);
 }
 
 .mlpm_w h2 {
 	font-size: 1.5em;
 	line-height: 1em;
 	font-weight: bold;
-	color: #870000;
+	color: #221A1A;
 	padding: 0 .4em 0 .4em;
 }
 
@@ -87,7 +87,7 @@
 .mlpm_w .backItemClass {
 	display: block;
 	padding: .4em .4em .4em .4em;
-	background: #ba0011;
+	background: rgba(0, 141, 186, 0.63);
 	border-top: 1px solid #870000;
 }
 

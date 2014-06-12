@@ -217,7 +217,7 @@ var arrMenu = [
 				]
 			},
 			{
-				name: 'Contactos',
+				name: 'Contacto',
 				link: '#'
 			}
 		]
