@@ -16,6 +16,11 @@ body {
 /* small displays */
 @media only screen {
 
+	#imgCent {
+		width: 500px;
+		height: 116px;
+	}
+	
 	#pushobj {
 		position: absolute;
 		left: 30px;
@@ -24,6 +29,12 @@ body {
 }
 /* medium displays */
 @media only screen and (min-width: 40.063em) {
+
+	#imgCent {
+		width: 1000px;
+		height: 232px;
+	}
+
 	#pushobj {
 		position: inherit;
 		left: 0px;
