@@ -16,10 +16,10 @@ body {
 /* small displays */
 @media only screen {
 
-/* 	#imgCent {
+	#imgCent {
 		width: 500px;
 		height: 116px;
-	} */
+	}
 	
 	#pushobj {
 		position: absolute;
@@ -30,10 +30,10 @@ body {
 /* medium displays */
 @media only screen and (min-width: 40.063em) {
 
-/* 	#imgCent {
-		width: 1000px;
-		height: 232px;
-	} */
+	#imgCent {
+		width: inherit;
+		height: inherit;
+	}
 
 	#pushobj {
 		position: inherit;
