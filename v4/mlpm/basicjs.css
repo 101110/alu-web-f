@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #fff;
+}
+
+#pushobj {
+
+	top: 0px;
+
+	color: #30F;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 2em;
+}
+
+/* small displays */
+@media only screen {
+
+	#imgCent {
+		width: 500px;
+		height: 116px;
+	}
+	
+	#pushobj {
+		position: absolute;
+		left: 30px;
+	}
+
+}
+/* medium displays */
+@media only screen and (min-width: 40.063em) {
+
+	#imgCent {
+		width: inherit;
+		height: inherit;
+	}
+
+	#pushobj {
+		position: inherit;
+		left: 0px;
+	}
+ }
