@@ -23,7 +23,7 @@ var arrMenu = [
 												link: '#'
 											},
 											{
-												name: 'Estructura de la compañía',
+												name: 'Estructura de Aluar',
 												link: '#'
 											},
 											{
@@ -31,7 +31,7 @@ var arrMenu = [
 												link: '#'
 											},
 											{
-												name: 'Sistemas de Calidad y Gestión',
+												name: 'Calidad y Gestión',
 												link: '#'
 											}
 						]
@@ -85,7 +85,7 @@ var arrMenu = [
 								link: '#'
 							},
 							{
-								name: 'Reportes de Sustentabilidad',
+								name: 'Reportes Sustentabilidad',
 								link: '#'
 							},
 							{
@@ -97,7 +97,7 @@ var arrMenu = [
 								link: '#'
 							},
 							{
-								name: 'Compromiso con la Comunidad',
+								name: 'Compromiso Comunidad',
 								link: '#'
 							}
 						]
@@ -134,7 +134,7 @@ var arrMenu = [
 								link: '#'
 							},
 							{
-								name: 'Desarrollo Nuevos Productos',
+								name: 'Desarrollo Productos',
 								link: '#'
 							}
 						]
@@ -142,12 +142,12 @@ var arrMenu = [
 				]
 			},
 			{
-				name: 'Información Financiera y Contable',
+				name: 'Información Financiera',
 				icon: 'fa fa-book',
 				link: '#',
 				items: [
 					{
-						title: 'Información Financiera y Contable',
+						title: 'Información Financiera',
 						icon: 'fa fa-book',
 						items: [
 							{
@@ -167,7 +167,7 @@ var arrMenu = [
 								link: '#'
 							},
 							{
-								name: 'Comisión Nacional de Valores',
+								name: 'CNV',
 								link: '#'
 							}
 						]
@@ -188,20 +188,20 @@ var arrMenu = [
 								link: '#'
 							},
 							{
-								name: 'Programas de Pasantías',
+								name: 'Programas Pasantías',
 								icon: 'fa fa-female',
 								link: '#',
 								items: [
 									{
-										title: 'Programas de Pasantías',
+										title: 'Programas Pasantías',
 										icon: 'fa fa-female',
 										items: [
 											{
-												name: 'Programa pasantías secundarios',
+												name: 'Pasantías secundarios',
 												link: '#'
 											},
 											{
-												name: 'Programa pasantías universitarias',
+												name: 'Pasantías universitarias',
 												link: '#'
 											}
 										]
