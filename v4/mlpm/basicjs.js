@@ -31,7 +31,7 @@ var arrMenu = [
 												link: '#'
 											},
 											{
-												name: 'Sistemas de Calidad y Gestión Industrial',
+												name: 'Sistemas de Calidad y Gestión',
 												link: '#'
 											}
 						]
@@ -52,7 +52,7 @@ var arrMenu = [
 								link: '#'
 							},
 							{
-								name: 'Historia de la Industria del Aluminio',
+								name: 'Historia del Aluminio',
 								link: '#'
 							},
 							{
@@ -134,7 +134,7 @@ var arrMenu = [
 								link: '#'
 							},
 							{
-								name: 'Desarrollo de Nuevos Productos',
+								name: 'Desarrollo Nuevos Productos',
 								link: '#'
 							}
 						]
@@ -197,11 +197,11 @@ var arrMenu = [
 										icon: 'fa fa-female',
 										items: [
 											{
-												name: 'Programa de pasantías secundarios',
+												name: 'Programa pasantías secundarios',
 												link: '#'
 											},
 											{
-												name: 'Programa de pasantías universitarias',
+												name: 'Programa pasantías universitarias',
 												link: '#'
 											}
 										]
