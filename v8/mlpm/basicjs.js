@@ -325,7 +325,7 @@ $(document).ready(function(){
 		wrapperClass: 'mlpm_w',
 		menuInactiveClass: 'mlpm_inactive',
 		
-		menuWidth: '73%'
+		menuWidth: '80%'
 	});
 });
 
