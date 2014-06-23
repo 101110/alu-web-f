@@ -23,6 +23,34 @@
     <link rel="stylesheet" href="./mlpm/basicjs.css">
     <script type="text/javascript" src="http://oss.maxcdn.com/libs/modernizr/2.6.2/modernizr.min.js"></script>
 
+	<style>
+	
+	.top-bar {
+		background: rgba(156, 180, 184, 0.83);
+	}
+	
+	.top-bar-section li:not(.has-form) a:not(.button):hover {
+		background: rgba(156, 180, 184, 0.83);
+	}
+	
+	.top-bar-section ul li:hover:not(.has-form) > a {
+		background: rgba(156, 180, 184, 0.83);
+		color: white;
+	}
+
+	.top-bar-section ul {
+		background: rgba(156, 180, 184, 0.83);
+	}
+	
+	.top-bar-section .dropdown li:not(.has-form) a:not(.button) {
+		background: rgba(156, 180, 184, 1);
+	}
+	
+	.top-bar .name h1 a {
+		/*color: black;*/
+	}
+	</style>
+	
   </head>
   <body> 
 	
@@ -99,8 +127,60 @@
 							
 							<li><label>Nivel Uno</label></li>
 						
-							<li><a href="#">División Elaborados</a></li>
-							<li><a href="#">División Primario</a></li>
+							<li class="has-dropdown"><a href="#">División Elaborados</a>
+
+								<ul class="dropdown"><li class="title back js-generated"><h5><a href="javascript:void(0)">Back</a></h5></li>
+								
+									<li><label>Nivel Dos</label></li>
+								
+									<li class="has-dropdown"><a href="#">Laminados</a>
+
+										<ul class="dropdown"><li class="title back js-generated"><h5><a href="javascript:void(0)">Back</a></h5></li>
+										
+											<li><label>Nivel Tres</label></li>
+
+											<li><a href="#">Planchas</a></li>
+											<li><a href="#">Chapas y Rollos lisos</a></li>
+											<li><a href="#">Chapas y rollos grofados</a></li>
+											<li><a href="#">Foil</a></li>
+										
+										</ul>
+									</li>
+									
+									<li class="has-dropdown"><a href="#">Extruídos</a>
+
+										<ul class="dropdown"><li class="title back js-generated"><h5><a href="javascript:void(0)">Back</a></h5></li>
+										
+											<li><label>Nivel Tres</label></li>
+										
+											<li><a href="#">Sistemas de Carpintería</a></li>
+											<li><a href="#">Barras perfiladas</a></li>
+											<li><a href="#">Perfiles industriales</a></li>
+											<li><a href="#">Transporte</a></li>
+										
+										</ul>
+									</li>
+								
+								</ul>
+							</li>
+							
+							<li class="has-dropdown"><a href="#">División Primario</a>
+
+								<ul class="dropdown"><li class="title back js-generated"><h5><a href="javascript:void(0)">Back</a></h5></li>
+
+									<li><label>Nivel Dos</label></li>
+
+									<li><a href="#">Lingote de aleación</a></li>
+									<li><a href="#">Lingotes T y prismáticos</a></li>
+									<li><a href="#">Barrotes para extrusión</a></li>
+									<li><a href="#">Bobina de alambrón</a></li>
+									<li><a href="#">Placa para deformación</a></li>
+									<li><a href="#">Chancha de zincalum</a></li>
+									<li><a href="#">Lingote de aluminio puro</a></li>
+
+								</ul>
+							</li>
+							
 							<li><a href="#">Calidad</a></li>
 							<li><a href="#">Logística</a></li>
 							<li><a href="#">Ventas por Región</a></li>
@@ -135,19 +215,7 @@
 						  <li><label>Nivel Uno</label></li>
 						  
 						  <li><a href="#">Becas</a></li>
-						  
-						  <li class="has-dropdown"><a href="#">Programas de Pasantías</a>
-
-							<ul class="dropdown"><li class="title back js-generated"><h5><a href="javascript:void(0)">Back</a></h5></li>
-							
-								<li><label>Nivel Dos</label></li>
-							
-								<li><a href="#">Programa de pasantías secundarios</a></li>
-								<li><a href="#">Programa de pasantías universitarias</a></li>
-							
-							</ul>
-						  </li>
-						 
+						  <li><a href="#">Programa de Pasantías</a></li>
 						  <li><a href="#">Envíanos tu CV</a></li>
 
 						</ul>
